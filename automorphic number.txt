@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int num,square;
+cin>>num;
+if(num<=0||num>=10)
+{
+ cout<<"Invalid input:<<end;
+}
+else
+{ 
+square=num*num;
+}
+if(square%10==num)
+{
+cout<<"automorphic number"<<endl;
+}
+else
+{
+cout<<"not a automorphic number"<<endl;
+return 0;
+}
+}
+
